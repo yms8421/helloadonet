@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.SQLServer.ConsoleApp", "BilgeAdam.SQLServer.ConsoleApp\BilgeAdam.SQLServer.ConsoleApp.csproj", "{7198568F-257B-4135-B8AE-EDC9EF649ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.SQLServer.WinFormApp", "BilgeAdam.SQLServer.WinFormApp\BilgeAdam.SQLServer.WinFormApp.csproj", "{DFCAA034-A507-40E5-B618-7CFD36DEAB1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7198568F-257B-4135-B8AE-EDC9EF649ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7198568F-257B-4135-B8AE-EDC9EF649ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7198568F-257B-4135-B8AE-EDC9EF649ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7198568F-257B-4135-B8AE-EDC9EF649ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCAA034-A507-40E5-B618-7CFD36DEAB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCAA034-A507-40E5-B618-7CFD36DEAB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCAA034-A507-40E5-B618-7CFD36DEAB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCAA034-A507-40E5-B618-7CFD36DEAB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AEBA23D-A58A-40AB-AFCF-FA5AC3B2E797}
+	EndGlobalSection
+EndGlobal

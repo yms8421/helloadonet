@@ -22,8 +22,8 @@ namespace BilgeAdam.SQLServer.WinFormApp
         {
             var employees = new List<Employee>();
             //EN KEKO YÖNTEM
-            var connectionString = "Server=.;Database=Northwind;Trusted_Connection=True;";
-            //var connectionString = "Server=10.11.22.206;Database=Northwind;User Id=student;Password=ba123;";
+            //var connectionString = "Server=.;Database=Northwind;Trusted_Connection=True;";
+            var connectionString = "Server=10.11.22.206;Database=Northwind;User Id=student;Password=ba123;";
             var connection = new SqlConnection(connectionString);
             connection.Open();
             var query = "SELECT FirstName, LastName, BirthDate FROM Employees";
@@ -50,8 +50,8 @@ namespace BilgeAdam.SQLServer.WinFormApp
         {
             var employees = new List<Employee>();
             //EN KEKO YÖNTEM
-            var connectionString = "Server=.;Database=Northwind;Trusted_Connection=True;";
-            //var connectionString = "Server=10.11.22.206;Database=Northwind;User Id=student;Password=ba123;";
+            //var connectionString = "Server=.;Database=Northwind;Trusted_Connection=True;";
+            var connectionString = "Server=10.11.22.206;Database=Northwind;User Id=student;Password=ba123;";
             var connection = new SqlConnection(connectionString);
             connection.Open();
             var query = $"SELECT FirstName, LastName, BirthDate FROM Employees WHERE FirstName LIKE '%{txtSearch.Text}%'";
